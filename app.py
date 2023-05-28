@@ -16,10 +16,10 @@ def mainMenu():
 		os.system("cls")
 	else:
 		os.system("clear")
-	title = pyfiglet.figlet_format("LAWNS DDOS ATTACKER", font="slant")
+	title = pyfiglet.figlet_format("SIMPLE DDOS ATTACKER", font="slant")
 	print(f'[cyan]{title}[/cyan]')
 	print("    ")
-	print("[cyan][>][/cyan] GitHub: [cyan]https://www.github.com/Lawnless[/cyan]")
+	print("[cyan][>][/cyan] GitHub: [cyan]https://www.github.com/dincertekin[/cyan]")
 	print("    ")
 	ipAddress = Prompt.ask("[cyan][?][/cyan] Enter an IP Address:\n[cyan][>][/cyan]", show_choices=False, show_default=False)
 	print("[cyan][!][/cyan] IP Address parameter set to [green]{0}[/green].".format(str(ipAddress)))
